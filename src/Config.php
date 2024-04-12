@@ -57,6 +57,7 @@ class Config extends PhpCsFixerConfig
             "psr_autoloading" => ['dir' => $this->src],
             "return_type_declaration" => ["space_before" => "none"],
             "short_scalar_cast" => true,
+            "nullable_type_declaration_for_default_null_value" => true,
         ];
     }
 }
