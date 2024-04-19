@@ -48,6 +48,7 @@ class Config extends PhpCsFixerConfig
             "no_whitespace_in_blank_line" => true,
             "non_printable_character" => true,
             "normalize_index_brace" => true,
+            "nullable_type_declaration_for_default_null_value" => true,
             "ordered_imports" => ['imports_order' => ['class', 'const', 'function']],
             "php_unit_construct" => true,
             "php_unit_dedicate_assert" => true,
@@ -57,7 +58,6 @@ class Config extends PhpCsFixerConfig
             "psr_autoloading" => ['dir' => $this->src],
             "return_type_declaration" => ["space_before" => "none"],
             "short_scalar_cast" => true,
-            "nullable_type_declaration_for_default_null_value" => true,
         ];
     }
 }
