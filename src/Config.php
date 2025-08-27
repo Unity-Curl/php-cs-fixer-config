@@ -37,7 +37,7 @@ class Config extends PhpCsFixerConfig
             "function_to_constant" => true,
             "line_ending" => true,
             "multiline_whitespace_before_semicolons" => true,
-            "native_function_invocation" => ['include' => ['@internal'], 'scope' => 'namespaced'],
+            "native_function_invocation" => ['include' => ['@internal', 'str_increment'], 'scope' => 'namespaced'],
             "no_empty_phpdoc" => true,
             "no_extra_blank_lines" => true,
             "no_superfluous_phpdoc_tags" => true,
